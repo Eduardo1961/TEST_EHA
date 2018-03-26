@@ -1,4 +1,8 @@
+/* Crea el collection */
+
 create collection Armas_eha;
+
+/* Inserta una estructura JSON para descripción de Armas */
 
 insert into Armas_eha values('{
   "Tipo": "Escopeta",
@@ -21,8 +25,9 @@ insert into Armas_eha values('{
   "Modelo": "SO5"
 } ');
 				
-				
+/* Ejecuta un Query */				
 select * from Armas_eha	
 
+/* Borra collection */
 
 drop collection Armas_eha;	
